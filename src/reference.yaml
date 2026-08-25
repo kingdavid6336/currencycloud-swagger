@@ -3827,7 +3827,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: Beneficiary's email address.
+          description: >-
+            <span style="color:#FF5000;">DEPRECATED</span>. This field is
+            deprecated and will be removed on 26 November 2026.<br>
+            Beneficiary's email address.
+          deprecated: true
           pattern: ^[\w\.\_\%\-\+]+@([\w-]+\.)+\w{2,}+$
           minLength: 6
           maxLength: 255
@@ -4062,7 +4066,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: Beneficiary nature of business.
+          description: >-
+            <span style="color:#FF5000;">DEPRECATED</span>. This field is
+            deprecated and will be removed on 26 November 2026.<br>
+            Beneficiary nature of business.
+          deprecated: true
           maxLength: 255
         - name: company_website
           in: formData
@@ -4555,7 +4563,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: Email address
+          description: >-
+            <span style="color:#FF5000;">DEPRECATED</span>. This field is
+            deprecated and will be removed on 26 November 2026.<br>
+            Email address
+          deprecated: true
           pattern: ^[\w\.\_\%\-\+]+@([\w-]+\.)+\w{2,}+$
           minLength: 6
           maxLength: 255
@@ -4792,7 +4804,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: Beneficiary nature of business.
+          description: >-
+            <span style="color:#FF5000;">DEPRECATED</span>. This field is
+            deprecated and will be removed on 26 November 2026.<br>
+            Beneficiary nature of business.
+          deprecated: true
           maxLength: 255
         - name: company_website
           in: formData
@@ -9933,7 +9949,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: The name of the ultimate beneficiary if different.
+          description: >-
+            <span style="color:#FF5000;">DEPRECATED</span>. This field is
+            deprecated and will be removed on 26 November 2026.<br>
+            The name of the ultimate beneficiary if different.
+          deprecated: true
           minLength: 1
           maxLength: 255
         - name: purpose_code
@@ -11019,7 +11039,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: The name of the ultimate beneficiary if different.
+          description: >-
+            <span style="color:#FF5000;">DEPRECATED</span>. This field is
+            deprecated and will be removed on 26 November 2026.<br>
+            The name of the ultimate beneficiary if different.
+          deprecated: true
           minLength: 1
           maxLength: 255
         - name: purpose_code
@@ -13004,7 +13028,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: The name of the ultimate beneficiary if different.
+          description: >-
+            <span style="color:#FF5000;">DEPRECATED</span>. This field is
+            deprecated and will be removed on 26 November 2026.<br>
+            The name of the ultimate beneficiary if different.
+          deprecated: true
           minLength: 1
           maxLength: 255
         - name: purpose_code
