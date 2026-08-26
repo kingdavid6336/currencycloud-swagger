@@ -2903,7 +2903,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: 收款人的电子邮件地址。
+          description: >-
+            <span style="color:#FF5000;">已弃用</span>。此字段已弃用，将于
+            2026年11月26日移除<br>
+            收款人的电子邮件地址。
+          deprecated: true
         - name: beneficiary_address
           in: formData
           required: false
@@ -3097,7 +3101,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: 收款人业务性质。
+          description: >-
+            <span style="color:#FF5000;">已弃用</span>。此字段已弃用，将于
+            2026年11月26日移除<br>
+            收款人业务性质。
+          deprecated: true
         - name: company_website
           in: formData
           required: false
@@ -3561,7 +3569,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: 电子邮件地址
+          description: >-
+            <span style="color:#FF5000;">已弃用</span>。此字段已弃用，将于
+            2026年11月26日移除<br>
+            电子邮件地址
+          deprecated: true
         - name: beneficiary_address
           in: formData
           required: false
@@ -3754,7 +3766,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: 收款人业务性质。
+          description: >-
+            <span style="color:#FF5000;">已弃用</span>。此字段已弃用，将于
+            2026年11月26日移除<br>
+            收款人业务性质。
+          deprecated: true
         - name: company_website
           in: formData
           required: false
@@ -8376,7 +8392,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: 最终收款人的名称（如果不同）。
+          description: >-
+            <span style="color:#FF5000;">已弃用</span>。此字段已弃用，将于
+            2026年11月26日移除<br>
+            最终收款人的名称（如果不同）。
+          deprecated: true
         - name: purpose_code
           in: formData
           required: false
@@ -9370,7 +9390,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: 最终收款人的名称（如果不同）。
+          description: >-
+            <span style="color:#FF5000;">已弃用</span>。此字段已弃用，将于
+            2026年11月26日移除<br>
+            最终收款人的名称（如果不同）。
+          deprecated: true
         - name: purpose_code
           in: formData
           required: false
@@ -11238,7 +11262,11 @@ paths:
           in: formData
           required: false
           type: string
-          description: 最终收款人的名称（如果不同）。
+          description: >-
+            <span style="color:#FF5000;">已弃用</span>。此字段已弃用，将于
+            2026年11月26日移除<br>
+            最终收款人的名称（如果不同）。
+          deprecated: true
         - name: purpose_code
           in: formData
           required: false
